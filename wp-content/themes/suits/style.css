@@ -720,11 +720,12 @@ img.wp-smiley,
 .site-header .home-link {
 	display: block;
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 100%;
 	min-height: 180px;
 	text-align: center;
 	text-decoration: none;
 	width: 100%;
+	height: auto;
 }
 
 .site-title {

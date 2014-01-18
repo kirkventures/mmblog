@@ -687,14 +687,13 @@ img.wp-smiley,
 	padding: 46px 0;
 	padding: 4.6rem 0;
 	width: 100%;
-	background-color: #ffffff;
-	border: 10px #1b1c21;
+	background: #e6e6e6
 }
 
 .site-main .content-area {
 	float: left;
-	margin: 20px 10px;
-	margin: 2 rem 1rem;
+	margin: 0 10px;
+	margin: 0 1rem;
 	width: 620px;
 }
 
@@ -795,7 +794,7 @@ div.nav-menu > ul {
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #646464;
+	background-color: #303030;
 	color: #fff;
 	-webkit-transition: none;
 	transition:         none;
@@ -854,7 +853,7 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #1b1c21;
+	background-color: #404040;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -866,7 +865,7 @@ ul.nav-menu li:hover > ul,
 }
 
 .site-header .search-field {
-	background-color: #303030;
+	background-color: transparent;
 	background-image: url(images/search-icon.png);
 	background-position: 10px center;
 	background-repeat: no-repeat;
@@ -884,7 +883,7 @@ ul.nav-menu li:hover > ul,
 }
 
 .site-header .search-field:hover {
-	background-color: #646464;
+	background-color: #303030;
 	-webkit-transition: none;
 	transition:         none;
 }

@@ -715,6 +715,8 @@ img.wp-smiley,
 
 .site-header {
 	background-color: #000;
+	max-width: 100%;
+	height: auto;
 }
 
 .site-header .home-link {

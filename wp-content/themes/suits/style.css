@@ -715,8 +715,6 @@ img.wp-smiley,
 
 .site-header {
 	background-color: #000;
-	max-width: 100%;
-	height: auto;
 }
 
 .site-header .home-link {
@@ -1787,8 +1785,6 @@ ul.nav-menu li:hover > ul,
 	.site-footer .sidebar-inner,
 	.site-info {
 		width: 768px;
-		max-width: 100%;
-	
 	}
 
 	.site-main .content-area {
@@ -1832,9 +1828,7 @@ ul.nav-menu li:hover > ul,
 	.three-footer-sidebars .site-footer .widget-area {
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
-		max-width: 100%;
-		height: auto;
+		width: 300px;
 	}
 
 	.site-main .content-area {
@@ -1962,7 +1956,6 @@ ul.nav-menu li:hover > ul,
 	.one-footer-sidebar .site-footer .widget-area,
 	.two-footer-sidebars .site-footer .widget-area,
 	.three-footer-sidebars .site-footer .widget-area {
-		width: 100%;
-		max-width: 100%;
+		width: 420px;
 	}
 }

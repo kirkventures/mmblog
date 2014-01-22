@@ -1787,6 +1787,7 @@ ul.nav-menu li:hover > ul,
 	.site-footer .sidebar-inner,
 	.site-info {
 		width: 768px;
+	
 	}
 
 	.site-main .content-area {
@@ -1831,6 +1832,8 @@ ul.nav-menu li:hover > ul,
 		margin-left: auto;
 		margin-right: auto;
 		width: 300px;
+		max-width: 100%
+		height: auto;
 	}
 
 	.site-main .content-area {

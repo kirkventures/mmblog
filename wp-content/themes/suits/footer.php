@@ -15,6 +15,11 @@
 			<?php get_sidebar( 'footer' ); ?>
 
 			<div class="site-info-container">
+				<div class="site-info">
+					
+					<span class="sep"> &middot; </span>
+					
+				</div><!-- .site-info -->
 			</div><!-- .site-info-container -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->

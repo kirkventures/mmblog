@@ -119,7 +119,6 @@ function suits_admin_header_style() {
 		-moz-box-sizing:    border-box;
 		box-sizing:         border-box;
 		background-color: #000;
-
 		<?php
 		if ( ! empty( $header_image ) ) {
 			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top;';
@@ -131,8 +130,7 @@ function suits_admin_header_style() {
 		box-sizing:         border-box;
 		display: block;
 		margin: 0 auto;
-		max-width: 100%;
-		height: auto;
+		max-width: 960px;
 		<?php
 		if ( ! empty( $header_image ) || display_header_text() ) {
 			echo 'min-height: 180px;';

@@ -121,7 +121,7 @@ function suits_admin_header_style() {
 		background-color: #000;
 		<?php
 		if ( ! empty( $header_image ) ) {
-			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top; background-size: contain;';
+			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top;';
 		} ?>
 	}
 	#headimg .home-link {

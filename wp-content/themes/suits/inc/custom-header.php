@@ -130,7 +130,8 @@ function suits_admin_header_style() {
 		box-sizing:         border-box;
 		display: block;
 		margin: 0 auto;
-		max-width: 960px;
+		max-width: 100%;
+		height: auto;
 		<?php
 		if ( ! empty( $header_image ) || display_header_text() ) {
 			echo 'min-height: 180px;';

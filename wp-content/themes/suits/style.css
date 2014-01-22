@@ -1962,5 +1962,6 @@ ul.nav-menu li:hover > ul,
 	.two-footer-sidebars .site-footer .widget-area,
 	.three-footer-sidebars .site-footer .widget-area {
 		width: 420px;
+		max-width: 100%;
 	}
 }

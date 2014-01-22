@@ -1961,7 +1961,7 @@ ul.nav-menu li:hover > ul,
 	.one-footer-sidebar .site-footer .widget-area,
 	.two-footer-sidebars .site-footer .widget-area,
 	.three-footer-sidebars .site-footer .widget-area {
-		width: 420px;
+		width: 100%;
 		max-width: 100%;
 	}
 }

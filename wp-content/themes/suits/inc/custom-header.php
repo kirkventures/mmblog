@@ -119,6 +119,8 @@ function suits_admin_header_style() {
 		-moz-box-sizing:    border-box;
 		box-sizing:         border-box;
 		background-color: #000;
+		max-width: 100%; 
+		height: auto;
 		<?php
 		if ( ! empty( $header_image ) ) {
 			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top;';

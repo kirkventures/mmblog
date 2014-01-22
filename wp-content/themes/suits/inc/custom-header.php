@@ -119,10 +119,10 @@ function suits_admin_header_style() {
 		-moz-box-sizing:    border-box;
 		box-sizing:         border-box;
 		background-color: #000;
+
 		<?php
 		if ( ! empty( $header_image ) ) {
-			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top; max-width: 100%; 
-		height: auto;';
+			echo 'background: url(' . esc_url( $header_image ) . ') no-repeat scroll top;';
 		} ?>
 	}
 	#headimg .home-link {
@@ -131,7 +131,8 @@ function suits_admin_header_style() {
 		box-sizing:         border-box;
 		display: block;
 		margin: 0 auto;
-		max-width: 960px;
+		max-width: 100%;
+		height: auto;
 		<?php
 		if ( ! empty( $header_image ) || display_header_text() ) {
 			echo 'min-height: 180px;';
